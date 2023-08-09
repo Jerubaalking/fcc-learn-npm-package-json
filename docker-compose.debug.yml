@@ -11,4 +11,4 @@ services:
     ports:
       - 3111:3111
       - 9229:9229
-    command: ["NODE_ENV=production","node", "--inspect=0.0.0.0:9229", "main.js"]
+    command: ["NODE_ENV=production","node", "--inspect=0.0.0.0:9229", "server.js"]
